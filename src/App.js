@@ -28,7 +28,6 @@ const defaultData = [
 ]
 
 const columnHelper = createColumnHelper()
-
 const columns = [
   columnHelper.accessor('event', {
     cell: info => info.getValue(),
